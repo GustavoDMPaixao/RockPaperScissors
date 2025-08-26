@@ -14,6 +14,7 @@ namespace RockPaperScissors
 
             while (playAgain)
             {
+                Console.Clear();
                 player = "";
                 computer = "";
                 answer = "";
@@ -71,10 +72,10 @@ namespace RockPaperScissors
                     case "SCISSORS":
                         if (computer == "ROCK")
                         {
-                            Console.WriteLine("You win!");
+                            Console.WriteLine("You lose!");
                         } else if (computer == "PAPER")
                         {
-                            Console.WriteLine("You lose!");
+                            Console.WriteLine("You win!");
                         }
                         else
                         {
@@ -95,9 +96,9 @@ namespace RockPaperScissors
                     playAgain = false;
                 }
 
-                Console.WriteLine("Thanks for playing!");
             }
-
+    
+            Console.WriteLine("Thanks for playing!");
             Console.ReadKey();
         }
     }
