@@ -94,12 +94,14 @@ namespace RockPaperScissors
                 else
                 {
                     playAgain = false;
+                    
+                    Console.WriteLine("Thanks for playing!");
+                    System.Environment.Exit(0);
                 }
 
             }
-    
-            Console.WriteLine("Thanks for playing!");
-            Console.ReadKey();
+            
         }
+        
     }
 }
