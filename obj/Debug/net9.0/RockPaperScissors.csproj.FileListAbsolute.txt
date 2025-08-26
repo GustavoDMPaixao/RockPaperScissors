@@ -1,0 +1,15 @@
+/Users/gustavodimartino/RockPaperScissors/bin/Debug/net9.0/RockPaperScissors
+/Users/gustavodimartino/RockPaperScissors/bin/Debug/net9.0/RockPaperScissors.deps.json
+/Users/gustavodimartino/RockPaperScissors/bin/Debug/net9.0/RockPaperScissors.runtimeconfig.json
+/Users/gustavodimartino/RockPaperScissors/bin/Debug/net9.0/RockPaperScissors.dll
+/Users/gustavodimartino/RockPaperScissors/bin/Debug/net9.0/RockPaperScissors.pdb
+/Users/gustavodimartino/RockPaperScissors/obj/Debug/net9.0/RockPaperScissors.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gustavodimartino/RockPaperScissors/obj/Debug/net9.0/RockPaperScissors.AssemblyInfoInputs.cache
+/Users/gustavodimartino/RockPaperScissors/obj/Debug/net9.0/RockPaperScissors.AssemblyInfo.cs
+/Users/gustavodimartino/RockPaperScissors/obj/Debug/net9.0/RockPaperScissors.csproj.CoreCompileInputs.cache
+/Users/gustavodimartino/RockPaperScissors/obj/Debug/net9.0/RockPaperScissors.sourcelink.json
+/Users/gustavodimartino/RockPaperScissors/obj/Debug/net9.0/RockPaperScissors.dll
+/Users/gustavodimartino/RockPaperScissors/obj/Debug/net9.0/refint/RockPaperScissors.dll
+/Users/gustavodimartino/RockPaperScissors/obj/Debug/net9.0/RockPaperScissors.pdb
+/Users/gustavodimartino/RockPaperScissors/obj/Debug/net9.0/RockPaperScissors.genruntimeconfig.cache
+/Users/gustavodimartino/RockPaperScissors/obj/Debug/net9.0/ref/RockPaperScissors.dll

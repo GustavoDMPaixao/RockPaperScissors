@@ -21,9 +21,25 @@ namespace RockPaperScissors
                     Console.Write("Enter ROCK, PAPER or SCISSORS: ");
                     player = Console.ReadLine().ToUpper();
                 }
+                int randomNumber = random.Next(1, 4);
+                switch (randomNumber)
+                {
+                    case 1:
+                        computer = "ROCK";
+                        break;
+                    case 2:
+                        computer = "PAPER";
+                        break;
+                    case 3:
+                        computer = "SCISSORS";
+                        break;
+                }
 
-                Console.WriteLine(player);
+                Console.WriteLine($"Player: {player}");
+                Console.WriteLine($"Computer: {computer}");
             }
+
+            Console.ReadKey();
         }
     }
 }
