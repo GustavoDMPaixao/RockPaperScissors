@@ -10,11 +10,13 @@ namespace RockPaperScissors
             bool playAgain = true;
             string player;
             string computer;
+            string answer;
 
             while (playAgain)
             {
                 player = "";
                 computer = "";
+                answer = "";
                 
                 while (player != "ROCK" && player != "PAPER" && player != "SCISSORS")
                 {
@@ -80,6 +82,20 @@ namespace RockPaperScissors
                         }
                         break;
                 }
+
+                Console.Write("Would you like to play again? (Y/N): ");
+                answer = Console.ReadLine().ToUpper();
+
+                if (answer == "Y")
+                {
+                    playAgain = true;
+                }
+                else
+                {
+                    playAgain = false;
+                }
+
+                Console.WriteLine("Thanks for playing!");
             }
 
             Console.ReadKey();
