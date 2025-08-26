@@ -36,7 +36,7 @@ namespace RockPaperScissors
                 }
 
                 Console.WriteLine($"Player: {player}");
-                Console.WriteLine($"Computer: {computer}");
+                Console.WriteLine($"Computer:{computer}");
             }
 
             Console.ReadKey();
